@@ -46,7 +46,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-
     implementation(libs.androidx.viewpager2)
-    implementation(libs.material.v1120)
+    implementation(libs.androidx.fragment)
+    implementation(libs.androidx.material.lint)
 }

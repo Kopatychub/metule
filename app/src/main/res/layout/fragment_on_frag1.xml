@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnFrag1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line2"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="60dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line_smile"
+        android:layout_gravity="center"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:fontFamily="@font/raleway_extra_bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="@string/LabelText1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:fontFamily="@font/raleway_extra_bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="@string/LabelText2"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="19dp"
+            android:src="@drawable/line1"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="570dp"
+        android:layout_height="570dp"
+        android:layout_gravity="center"
+        android:rotation="-20.15"
+        android:src="@drawable/shoes1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="110dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/line3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:rotation="-110"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/line3" />
+
+</FrameLayout>
