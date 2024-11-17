@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">matuleme</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="LabelText1">ДОБРО</string>
     <string name="LabelText2">ПОЖАЛОВАТЬ</string>
+    <string name="onb_text2">Начнем\nПутешевствие</string>
+    <string name="onb_long_text1">Умная, великолепная и модная\nколлекция Изучите сейчас</string>
+    <string name="onb_text3">У вас есть сила,\nчтобы</string>
+    <string name="onb_long_text2">В вашей комнате много красивых и\nпривлекательных растений</string>
 </resources>
