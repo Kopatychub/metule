@@ -2,9 +2,9 @@ package com.example.matuleme
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.example.matuleme.fragments.OnboardingFragment1
-import com.example.matuleme.fragments.OnboardingFragment2
-import com.example.matuleme.fragments.OnboardingFragment3
+import com.example.matuleme.onBoradingFragments.OnboardingFragment1
+import com.example.matuleme.onBoradingFragments.OnboardingFragment2
+import com.example.matuleme.onBoradingFragments.OnboardingFragment3
 
 class OnboardigAdapter(onboarding: Onboarding): FragmentStateAdapter(onboarding) {
     override fun getItemCount(): Int = 3

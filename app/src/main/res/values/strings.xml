@@ -7,4 +7,10 @@
     <string name="onb_text3">У вас есть сила,\nчтобы</string>
     <string name="onb_long_text2">В вашей комнате много красивых и\nпривлекательных растений</string>
     <string name="onb_button_text">Начать</string>
+    <string name="signMain">Привет!</string>
+    <string name="signBottom">Вы впервые? </string>
+    <string name="signBottomLink">Создать пользователя</string>
+    <string name="sing_descript">Заполните Свои данные или\nпродолжите через социальные медиа</string>
+    <string name="registerMain">Регистрация</string>
+    <string name="register_descript">Заполните Свои данные или\nпродолжите через социальные медиа</string>
 </resources>

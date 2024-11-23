@@ -88,7 +88,7 @@ class Onboarding : AppCompatActivity() {
                 ).apply {
                     setMargins(10,0, 10, 0)
 
-                    height = 20
+                    height = 15
                     width = 80
 
                 }
@@ -112,8 +112,7 @@ class Onboarding : AppCompatActivity() {
     }
 
     private fun startMainActivity() {
-        val intent = Intent(this@Onboarding, MainActivity::class.java)
+        val intent = Intent(this@Onboarding, AuthActivity::class.java)
         startActivity(intent)
-        finish()
     }
 }

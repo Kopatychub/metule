@@ -1,4 +1,4 @@
-package com.example.matuleme.fragments
+package com.example.matuleme.onBoradingFragments
 
 import androidx.fragment.app.Fragment
 import com.example.matuleme.R
